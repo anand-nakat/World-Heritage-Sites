@@ -1,0 +1,172 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background: url('../images/login-bg.jpg') no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.navbar{
+	font-size: 2.4rem;
+
+}
+.navbar-brand{
+font-size: 3.5rem;
+}
+
+
+.navbar-toggler{
+	font-size: 2rem;
+}
+
+
+
+.main{
+	z-index: 1;
+	width: 100%;
+	margin-top: 12rem;
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+
+.loginbox
+{
+    color: white;
+    text-align: center;
+    padding: 1.6rem 2.8rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.loginbox h1
+{
+	width: fit-content;	
+	border-bottom: 0.25rem solid #22b61f;
+    font-size: 4.2rem;
+    margin-bottom: 15%;
+    padding: 0.5rem 0rem;
+    text-align: left;
+    
+}
+
+
+.textbox
+{
+	width: 100%;
+	overflow: hidden;
+	font-size: 2rem;
+	padding: 0.5rem 0;
+	margin: 0.5rem 0;
+	display: flex;
+}
+
+.textbox input{
+	border: none;
+    outline: none;
+    background: none;
+    color: white;
+    width: auto;
+    font-size: 2.5rem;
+    float: left;
+    margin: .5rem .5rem;
+    padding-bottom: .8rem;
+    border-bottom: .25rem solid white;
+}
+
+.textbox input:focus{
+	border-bottom: .25rem solid  #22b61f;
+}
+
+.textbox i{
+	    font-size: 2.4rem;
+    width: 3rem;
+    text-align: center;
+    position: relative;
+    top: 1.5rem;
+    right: .4rem;
+    float: left;
+    padding: .4rem .1rem;
+    margin: 0rem;
+     
+}
+.btn{
+	    width: 80%;
+    background: none;
+    border: .25rem solid #26ce1a;
+    padding: .2rem;
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin: 1.2rem 0;
+    border-radius: 1rem;
+    justify-content: center;
+    transition: cubic-bezier(0.46, 0.03, 0.52, 0.96) background 0.5s,width 0.5s,border 0.5s;
+
+}
+
+#error_message{
+	font-size: 2rem;
+}
+
+.btn:hover,.btn:active{
+    background: #22b61f;
+    width: 88%;
+    border: .3rem solid black;
+    color: black;
+}
+
+@media(max-width: 998px)
+{
+	html
+	{
+		font-size: 58%;
+	}
+}
+
+@media(max-width: 768px)
+{
+	html
+	{
+		font-size: 55%;
+	}
+}
+@media(max-width: 600px)
+{
+	html
+	{
+		font-size: 52%;
+	}
+}
+@media(max-width: 400px)
+{
+	html
+	{
+		font-size: 48%;
+	}
+	
+}
+@media(max-width: 350px)
+{
+	html
+	{
+		font-size: 46%;
+	}
+	.navbar-brand{
+		font-size: 3rem;
+	}
+}

@@ -1,0 +1,176 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background: url('../images/signup-bg.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+	font-size: 2.4rem;
+
+}
+.navbar-brand{
+font-size: 3.5rem;
+}
+
+
+.navbar-toggler{
+	font-size: 2rem;
+}
+
+.bg{
+
+}
+
+.main{
+
+
+
+	z-index: 1;
+	width: 100%;
+	margin-top: 12rem;
+	display: flex;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+
+.signupbox{
+        color: white;
+    text-align: center;
+    padding: 1.6rem 2.8rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.signupbox h1
+{
+	width: fit-content;	
+	border-bottom: 0.25rem solid #62cced;
+    font-size: 4.2rem;
+    margin-bottom: 15%;
+    padding: 0.5rem 0rem;
+    text-align: left;
+    
+}
+
+
+.s_textbox
+{
+	width: 100%;
+	overflow: hidden;
+	font-size: 2rem;
+	padding: 0.5rem 0;
+	margin: 0.5rem 0;
+	display: flex;
+}
+
+.s_textbox input{
+	border: none;
+    outline: none;
+    background: none;
+    color: white;
+    width: auto;
+    font-size: 2.5rem;
+    float: left;
+    margin: .5rem .5rem;
+    padding-bottom: .8rem;
+    border-bottom: .25rem solid white;
+}
+
+.s_textbox input:focus{
+	border-bottom: .25rem solid  #62cced;
+}
+
+.s_textbox i{
+	    font-size: 2.4rem;
+    width: 3rem;
+    text-align: center;
+    position: relative;
+    top: 1.5rem;
+    right: .4rem;
+    float: left;
+    padding: .4rem .1rem;
+    margin: 0rem;
+     
+}
+.btn_signup{
+	    width: 80%;
+    background: none;
+    border: .25rem solid #62cced;
+    padding: .2rem;
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin: 1.2rem 0;
+    border-radius: 1rem;
+    justify-content: center;
+    transition: cubic-bezier(0.46, 0.03, 0.52, 0.96) background 0.5s,width 0.5s,border 0.5s;
+
+}
+
+#error_message,#error_message1{
+	font-size: 2rem;
+}
+
+.btn_signup:hover,.btn_signup:active{
+    background: #62cced;
+    width: 88%;
+    border: .25rem solid black;
+    color: black;
+}
+
+@media(max-width: 998px)
+{
+	html
+	{
+		font-size: 58%;
+	}
+}
+
+@media(max-width: 768px)
+{
+	html
+	{
+		font-size: 55%;
+	}
+}
+@media(max-width: 600px)
+{
+	html
+	{
+		font-size: 52%;
+	}
+}
+@media(max-width: 400px)
+{
+	html
+	{
+		font-size: 48%;
+	}
+	
+}
+@media(max-width: 350px)
+{
+	html
+	{
+		font-size: 46%;
+	}
+	.navbar-brand{
+		font-size: 3rem;
+	}
+}

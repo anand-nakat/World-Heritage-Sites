@@ -1,0 +1,320 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+*{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+html
+{
+font-size: 62.5%;
+scroll-behavior: smooth;
+}
+
+body{
+	margin:0; padding: 0;
+	box-sizing: border-box;
+	
+}
+
+p{
+	font-size: 2.6rem;
+	font-family: 'Roboto Slab', serif;
+}
+
+
+
+.navbar{
+	font-size: 2.4rem;
+
+}
+.dropdown-item{
+	font-size: 2.4rem;
+}
+.navbar-brand{
+	font-size: 4rem;
+}
+
+.search-box {
+font-size: 2rem;
+width: 100%;
+}
+
+.search-list{
+	font-size: 2.7rem;
+    padding: 0 0.5rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .result{
+    	display: block;
+    	color: greenyellow;
+    }
+
+    .result span{
+    	border-bottom: .2rem solid greenyellow;
+    }
+.search-list li{
+	cursor: pointer;
+}
+
+.search-list li a{
+	text-decoration: none;
+	color: white;
+	padding: 0 0.6rem;
+}
+
+
+.navbar-toggler{
+	font-size: 2.4rem;
+}
+
+.carousel-head{
+height: 62rem;
+
+}
+
+
+
+
+.carousel-head img {
+    width: 100%;
+    height: 100%; 
+    align-items: center;
+  }
+
+  .country img {
+    width: 100%;
+    align-items: center;
+    height: 48rem;
+  }
+
+
+  .carousel-caption{
+    display: none;
+    
+  }
+.main h1,.heading h1{
+	font-size: 6rem;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.heading{
+	margin: 6rem 1rem;
+}
+.unesco{
+	width:40rem;
+
+}
+
+
+.country-heading h1{
+	font-size: 4.2rem;
+	    margin: 4rem 0rem;
+	font-family: 'Roboto Slab', serif;
+}
+
+.country{
+	
+    top: -4rem;
+    padding: 0rem 0rem;
+    /*border: 0.rem solid black;*/
+    
+}
+
+.country-text{
+	    padding: 0rem 0.2rem;
+    margin-top: -4rem;
+    font-size: 2.8rem;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+
+.visit-btn{
+     transition: cubic-bezier(0.39, 0.58, 0.57, 1) all 0.5s;
+    width: 40rem;
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 1rem;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.visit-btn:hover{
+	font-size: 3.2rem;
+	    width: 42rem;
+
+}
+
+.big h1{
+	font-size: 5rem;
+}
+
+footer{
+/* background-color: #343a40; */
+background-color: rgba(0, 0, 0, 0.9);
+ }
+
+.footer-body{
+	color: white;
+	font-size: 1.9rem;
+	color: #f5f5f5;
+}
+
+.footer-section {
+	font-family: 'Varela Round', sans-serif;
+	font-size: 2.2rem;
+	margin: 1rem 0;
+	color: lightgrey;
+	border-bottom: .2rem solid darkgrey;
+}
+
+
+.social-icons li a{
+	font-size: 2rem;
+	 font-family: 'Varela Round', sans-serif;
+}
+.social-icons li i{
+font-size: 2.5rem;
+padding-right: 1.5rem;
+}
+ 
+
+
+
+.contact-btn{
+	border: none; outline:none; 
+	background: none;
+	color: lightgrey;
+}
+
+.footer-section a{
+	text-decoration: none;
+	font-size: 2rem;
+	color: lightgrey;
+}
+
+.footer-section a:hover,.contact-btn:hover{
+	color: white;
+
+}
+.footer-section .footer-heading{
+color: white;
+font-size: 2.5rem;
+}
+
+.footer-bottom{
+	
+    width: 100%;
+    color: #c7c7c7;
+    font-size: 2rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+@media(max-width: 998px)
+{
+	html{
+		font-size: 50%;
+	}
+	.country-text{
+	    /* padding: 0rem 2rem; */
+    margin: 0 0;
+	}
+	.search-list{
+	width: 100%;
+    
+}
+}
+
+@media(max-width: 768px)
+{
+	html
+	{
+		font-size: 45%;
+	}
+	.footer-section {
+	text-align: center;
+}
+	
+}
+
+@media only screen and (max-width: 600px)
+{
+	html
+	{
+		font-size: 36%;
+	}
+	
+.navbar{
+	padding:1rem 1rem;
+	font-size: 3rem;
+}
+
+.search-box{
+		font-size: 3rem;
+	}
+.country img {
+  width: 100%;
+  align-items: center;
+  height: 54rem;
+}
+	.carousel-head{
+	height: 58rem;
+	
+	}
+
+	.country-text{
+	    /* padding: 0rem 2rem; */
+    margin: 0 0;
+    font-size: 2.7rem;
+    
+    }
+
+  .country-heading h1{
+  	font-size: 4rem;
+  }
+.unesco{
+	width: 30rem;
+}
+
+}
+@media(max-width: 400px){
+	
+	.country img {
+	 height: 48rem;
+	}
+
+}
+
+@media only screen and (max-width: 330px)
+{
+		html
+		{
+			font-size: 32%;
+		}
+
+		.navbar{
+		padding:1rem 1rem;
+		}	
+
+		.carousel-head{
+		height: 50rem;
+		
+		}
+		.country-text{
+		    
+	   font-size: 2.5rem;
+	    
+	    }
+
+	   .navbar-brand {
+	    font-size: 3rem;
+	}
+	.unesco{
+		width:35rem;
+
+	}
+
+}

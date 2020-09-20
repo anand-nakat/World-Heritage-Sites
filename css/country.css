@@ -1,0 +1,166 @@
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.navbar{
+	font-size: 2.4rem;
+
+}
+.navbar-brand{
+font-size: 3.5rem;
+}
+
+.heading h1{
+	font-size: 4.5rem;
+	font-family: 'Roboto Slab', serif;
+}
+
+.site{
+margin: 3rem 0;
+    padding: 3rem 0;
+    
+}
+
+.site-name{
+	font-size: 3.9rem;
+	margin-bottom: 2rem;
+}
+.num{
+	display: inline;
+}
+
+.fav{
+	border: none;
+    outline: none;
+    background-color: transparent;
+    
+}
+
+.fav:focus{
+	outline: none;
+}
+.fav i{
+	 outline: none;
+    border: none;
+}
+
+.fa-heart
+{
+color: red;
+}
+
+
+.site-info{
+	font-size: 2.3rem;
+	font-family: 'Varela Round', sans-serif;
+	position: relative;
+	top: -3rem;
+}
+.navbar-toggler{
+	font-size: 2.4rem;
+}
+
+.popover-header {
+    font-size: 2.2rem;
+}
+
+.popover-body {
+    font-size: 2rem;
+}
+
+@media(max-width: 998px)
+{
+	html{
+		font-size: 50%;
+	}
+	.site-info{
+
+	top: 0rem;
+}
+}
+
+@media(max-width: 768px)
+{
+	html
+	{
+		font-size: 45%;
+	}
+}
+
+@media only screen and (max-width: 600px)
+{
+	html
+	{
+		font-size: 36%;
+	}
+
+	.site-info{
+		font-size: 2.3rem;
+	}
+	.navbar{
+		font-size: 2.8rem;
+
+	}
+	.fav-icon-div{
+	    right: 0rem;
+    }
+}
+
+
+@media(max-width: 500px)
+{
+	html
+	{
+		font-size: 40%;
+	}
+	.site-name{
+		font-size: 3rem;
+	}
+
+
+	.fav-icon-div{
+	    bottom: -1rem;
+    }
+}
+
+@media(max-width: 400px)
+{
+
+	.site-img img{
+		
+    height: 42rem;
+	}
+}
+
+@media(max-width: 366px)
+{
+	html
+	{
+		font-size: 40%;
+	}
+	.site-name{
+		font-size: 2.5rem;
+	}
+
+	
+}
+
+@media(max-width: 300px)
+{
+	button{
+		font-size: 3rem;
+	}
+		
+	}
